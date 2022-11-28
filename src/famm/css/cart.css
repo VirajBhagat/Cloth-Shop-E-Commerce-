@@ -1,0 +1,128 @@
+
+.cart{
+    top: 50px;
+    right: -300px;
+    /* right: 100px; */
+    width: 33rem;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 7px;
+    position: absolute;
+    background: white;
+}
+
+.cart-false{
+    display: none;
+}
+
+.cart-true{
+    display: block;
+}
+
+.cart-product{
+    padding: 10px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.cart-product-image{
+    width: 4rem;
+    height: 5rem;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.cart-product-image:hover{
+    scale: 1.1;
+}
+
+.cart-product-image-background{
+    background-color: #e4e4e4;
+    width: 6rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.product-info{
+    
+}
+
+.product-name{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 15rem;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.cart-info h4{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.cart-quantity{
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-quantity div{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    margin: 15px 0px;
+}
+
+.cart-quantity p{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.cart-quantity-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* padding: 5px 10px; */
+    cursor: pointer;
+}
+
+.cart-quantity-number{
+    width: 4rem !important;
+    height: 2.2rem;
+    cursor: pointer;
+}
+
+.cart-product-delete{
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.line{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-line{
+    /* text-align: center; */
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    border: 1px solid rgb(214, 214, 214);
+}
